@@ -1,0 +1,38 @@
+# Binaries
+github-mcp-server
+*.bin
+bin/
+
+# Logs
+*.log
+debug.log
+
+# Configuration files with tokens
+*.token
+.env
+.env.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test outputs
+test-results/
+coverage/
+
+# Build artifacts
+build/
+dist/
+*.tar.gz
+
+# Temporary files
+tmp/
+temp/
+.tmp/
